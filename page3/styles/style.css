@@ -33,7 +33,7 @@ body{
 
   input,
   select{
-    width: 25vw;
+    width: 19.7vw;
     border: solid 1px #f2f2f2;
     margin-bottom: 20px;
     padding: 16px 25px;
@@ -42,12 +42,14 @@ body{
     background-color: #fff;
     box-sizing: border-box;
   }
+
   input[type=date]::-webkit-calendar-picker-indicator{opacity: 0;}
   .container{
     max-width: 1600px;
     margin: 0 auto;
     border: 2px solid black;
   }
+
   select{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -139,14 +141,14 @@ body{
     border: 4px solid green;
     max-width: 1535px;
     display: flex;
+    justify-content: center;
     text-align: start;
-    align-items: start;
-    margin-left: 160px;
-    overflow: hidden;
+    align-items: center; 
   }
   
   .feedback__info-first,
   .feedback__info-second{
+    max-width: 740px;
     display: flex;
     justify-content: center;
     margin: 0 36px 40px;
@@ -154,13 +156,13 @@ body{
     border-radius: 10px;
   }
   .feedback__info-first{
-    min-width: 46vw;
+    min-width: 40vw;
     background-image: url(/image/page3/bg-feedback.png);
     background-position: right bottom;
     background-repeat: no-repeat;
   }
   .feedback__info-second{
-    min-width: 46vw;
+    min-width: 40vw;
     margin-left: 20px;
   }
   .feedback-img__img{
@@ -171,7 +173,6 @@ body{
   }
   .container-booking{
     border: 4px solid green;
-    max-width: 1280px;
     display: flex;
     align-items: center;
     margin-top: 150px;
@@ -220,10 +221,7 @@ body{
     background: linear-gradient( to right, #0499DD, #17C1BC);
   }
 
-  .booking-btn__icon{
-   max-width: 30px;
 
-  }
   
   
   
